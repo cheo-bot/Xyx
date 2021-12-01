@@ -467,15 +467,12 @@ Nomor : @${ngntod.split('@')[0]}
 https://instagram.com/iamghosky_
 📌 Github
 Ada Private
-❋──────────────────────❋`, 
-"buttons": [
+❋──────────────────────❋`, "buttons": [
           { buttonId: `${prefix}allmenu`, buttonText: { displayText: '☰ ALL MENU' }, type: 1 },
           { buttonId: `${prefix}owner`, buttonText: { displayText: '☰ OWNER BOT' }, type: 1 },
           { buttonId: `${prefix}store`, buttonText: { displayText: '☰ STORE BOT' }, type: 1 }
         ], "headerType": "DOCUMENT", "documentMessage": {
-
             "url": "https://mmg.whatsapp.net/d/f/Ano5cGYFQnC51uJaqGBWiCrSJH1aDCi8-YPQMMb1N1y.enc",
-
             "mimetype": "application/pdf",
             "title": "Xyann.pdf",
             "fileSha256": "8Xfe3NQDhjwVjR54tkkShLDGrIFKR9QT5EsthPyxDCI=",
@@ -488,8 +485,7 @@ Ada Private
             "mediaKeyTimestamp": "1634472176",
             "jpegThumbnail": fs.readFileSync('./stik/dmcok.jpg')}}, MessageType.buttonsMessage, { quoted: mek, contextInfo: { "mentionedJid": [ngntod, xyx], "forwardingScore": 508, "isForwarded": true, "externalAdReply":{"title":`Hai ${pushname}`,"body":`Follow My Instagram, Click Here!!!`,"mediaType":"2","thumbnail":fs.readFileSync('./stik/gblg.jpg'),"mediaUrl":`http://slynk.xyz/w9V`}}})
 
-        break;
-    break
+        break
 case 'setmenu':
 if (!isOwner && !mek.key.fromMe) return reply(mess.only.owner)
 if(args[0] == 'ori'){
